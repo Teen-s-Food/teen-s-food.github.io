@@ -10,6 +10,7 @@
   margin: auto;
 }
 .main {
+  font-family: sf;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 20px;
@@ -30,7 +31,6 @@
 body {
   background-color: #47624f;
   font-size: 30px;
-  font-family: sf;
 }
 header {
   font-family: amp;
@@ -41,6 +41,7 @@ header {
   width: 360px;
 }
 ul {
+  font-family: sf;
   list-style-type: none;
   margin: 0;
   padding-left: 10px;

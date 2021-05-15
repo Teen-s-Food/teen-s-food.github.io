@@ -1,0 +1,40 @@
+@font-face {
+  font-family: amp;
+  src: url(amp.ttf);
+}
+.center {
+  margin: auto;
+}
+.main {
+  padding: 0.02px ;
+  text-align: center;
+  border-radius: 70px;
+  background-color: #DAEDBD;
+  text-align: center;
+  width: 90%;
+}
+.icon {
+  width: 60px;
+  height: 60px;
+  vertical-align: text-bottom;
+}
+body {
+  background-color: #47624f;
+  font-family: amp;
+  font-size: 30px;
+}
+h1 {
+  color: #2b3b30;
+}
+p {
+  color: red;
+}
+header {
+  padding: 0.02px ;
+  text-align: center;
+  border-radius: 70px;
+  background-color: #DAEDBD;
+  text-align: center;
+  width: 360px;
+  /*height: 80px*/
+}

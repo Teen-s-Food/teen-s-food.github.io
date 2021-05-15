@@ -2,6 +2,10 @@
   font-family: amp;
   src: url(amp.ttf);
 }
+@font-face {
+  font-family: sf;
+  src: url(sf.ttf);
+}
 .center {
   margin: auto;
 }
@@ -10,7 +14,7 @@
   padding-right: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
-  border-radius: 70px;
+  border-radius: 35px;
   background-color: #DAEDBD;
   width: 85%;
   margin: auto;
@@ -26,9 +30,10 @@
 body {
   background-color: #47624f;
   font-size: 30px;
+  font-family: sf;
 }
 header {
-  font-family: amp;
+  font-family: sf;
   padding: 0.02px ;
   text-align: center;
   border-radius: 70px;

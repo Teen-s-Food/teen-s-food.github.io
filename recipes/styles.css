@@ -235,3 +235,18 @@ body {
   -o-transition:all .4s linear;
   transition:all .4s linear;
 }
+
+#wrapper {
+  width: 355px;
+  /*border: 1px solid black;*/
+  overflow: hidden; /* add this to contain floated children */
+}
+#first {
+  width: 250px;
+  float:left; /* add this */
+  /*border: 1px solid red;*/
+}
+#second {
+  /*border: 1px solid green*/
+  float: left; /* add this */
+}

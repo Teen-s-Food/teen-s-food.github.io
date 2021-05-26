@@ -4,43 +4,112 @@
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="../styles.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+
+  </style>
 </head>
-<body style="height:1500px">
-
-<nav class="navbar navbar-custom navbar-inverse navbar-fixed-top" style="background-color: #333;">
-  <div class="container-fluid">
-    <!--<div class="navbar-header">
-      <a class="navbar-brand" href="index.html"><img style="vertical-align: text-bottom; width:50px;" src="logo.png"></a>
-    </div>-->
-    <ul class="nav navbar-nav navbar-center align-middle linki" style="padding-bottom: 10px; font-size: 25px;">
-      <li><a href="../index.html"><img style="width:75px;" src="logo.png"></a></li>
-      <li><a href="/about">O PROJEKCIE</a></li>
-      <li><a href="/recipes">PRZEPISY</a></li>
-      <li><a href="/authors">AUTORZY</a></li>
-    </ul>
-  </div>
-</nav>
+<body style="font-family: sf2; background-color: #47624fff">
 
 
-<div class="container" style="margin-top:100px; margin-bottom:40px;">
-  <h3 style="font-size: 50px;">O projekcie</h3>
-  <div class="row">
-    <div class="col-md-6">
-      <p>Oto strona naszego projektu. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. </p>
-      <p>Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. </p>
+  <nav class="navbar navbar-expand-lg navbar-dark linki fixed-top" style="background-color: #333333;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto mx-auto" style="padding-bottom: 5px; font-size: 25px;">
+        <li class="nav-item" style="margin-left: 20px; margin-right: 20px;">
+          <a class="nav-link" href="../index.html"><img style="width:75px;" src="logo.png"></a>
+        </li>
+        <li class="nav-item" style="margin-left: 20px; margin-right: 20px;">
+          <a class="nav-link" href="/about">O PROJEKCIE</a>
+        </li>
+        <li class="nav-item" style="margin-left: 20px; margin-right: 20px;">
+          <a class="nav-link" href="/recipes">PRZEPISY</a>
+        </li>
+        <li class="nav-item" style="margin-left: 20px; margin-right: 20px;">
+          <a class="nav-link" href="/authors">AUTORZY</a>
+        </li>
+      </ul>
     </div>
-    <div class="col-md-6">
-      <p>Oto strona naszego projektu. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. </p>
-      <p>Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. Tutaj będzie treść. </p>
+  </nav>
+
+<div class="container" style="margin-top: 110px;">
+  <div class="card-columns">
+    <div class="card card-inverse text-white" style="border-radius: 40px; background-color: #333333; border-color: #333333;">
+      <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="border-radius: 40px; ">
+      <div class="card-body">
+        <div id="wrapper" ><div id="first"><h4 class="card-title">Nazwa dania 1</h4></div><div id="second" style="text-align: right;"><h5 style="font-size: 20px; color: gray;">1h 15min</h5></div></div>
+        <p class="card-text">Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. </p>
+        <a href="#" style="border-radius: 20px;" class="btn btn-primary stretched-link">Zobacz przepis</a>
+      </div>
+    </div>
+  <div class="card card-inverse text-white" style="border-radius: 40px; background-color: #333333; border-color: #333333;">
+    <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="border-radius: 40px; ">
+    <div class="card-body">
+      <div id="wrapper" ><div id="first"><h4 class="card-title">Nazwa dania 2</h4></div><div id="second" style="text-align: right;"><h5 style="font-size: 20px; color: gray;">1h 15min</h5></div></div>
+      <p class="card-text">Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. </p>
+      <a href="#" style="border-radius: 20px;" class="btn btn-primary stretched-link">Zobacz przepis</a>
+    </div>
+  </div>
+  <div class="card card-inverse text-white" style="border-radius: 40px; background-color: #333333; border-color: #333333;">
+    <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="border-radius: 40px; ">
+    <div class="card-body">
+      <div id="wrapper" ><div id="first"><h4 class="card-title">Nazwa dania 3</h4></div><div id="second" style="text-align: right;"><h5 style="font-size: 20px; color: gray;">1h 15min</h5></div></div>
+      <p class="card-text">Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. </p>
+      <a href="#" style="border-radius: 20px;" class="btn btn-primary stretched-link">Zobacz przepis</a>
+    </div>
+  </div>
+  <div class="card card-inverse text-white" style="border-radius: 40px; background-color: #333333; border-color: #333333;">
+    <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="border-radius: 40px; ">
+    <div class="card-body">
+      <div id="wrapper" ><div id="first"><h4 class="card-title">Nazwa dania 4</h4></div><div id="second" style="text-align: right;"><h5 style="font-size: 20px; color: gray;">1h 15min</h5></div></div>
+      <p class="card-text">Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. </p>
+      <a href="#" style="border-radius: 20px;" class="btn btn-primary stretched-link">Zobacz przepis</a>
+    </div>
+  </div>
+  <div class="card card-inverse text-white" style="border-radius: 40px; background-color: #333333; border-color: #333333;">
+    <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="border-radius: 40px; ">
+    <div class="card-body">
+      <div id="wrapper" ><div id="first"><h4 class="card-title">Nazwa dania 5</h4></div><div id="second" style="text-align: right;"><h5 style="font-size: 20px; color: gray;">1h 15min</h5></div></div>
+      <p class="card-text">Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. </p>
+      <a href="#" style="border-radius: 20px;" class="btn btn-primary stretched-link">Zobacz przepis</a>
+    </div>
+  </div>
+  <div class="card card-inverse text-white" style="border-radius: 40px; background-color: #333333; border-color: #333333;">
+    <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="border-radius: 40px; ">
+    <div class="card-body">
+      <div id="wrapper" ><div id="first"><h4 class="card-title">Nazwa dania 6</h4></div><div id="second" style="text-align: right;"><h5 style="font-size: 20px; color: gray;">1h 15min</h5></div></div>
+      <p class="card-text">Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. </p>
+      <a href="#" style="border-radius: 20px;" class="btn btn-primary stretched-link">Zobacz przepis</a>
+    </div>
+  </div>
+  <div class="card card-inverse text-white" style="border-radius: 40px; background-color: #333333; border-color: #333333;">
+    <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="border-radius: 40px; ">
+    <div class="card-body">
+      <div id="wrapper" ><div id="first"><h4 class="card-title">Nazwa dania 7</h4></div><div id="second" style="text-align: right;"><h5 style="font-size: 20px; color: gray;">1h 15min</h5></div></div>
+      <p class="card-text">Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. Opis dania. </p>
+      <a href="#" style="border-radius: 20px;" class="btn btn-primary stretched-link">Zobacz przepis</a>
+    </div>
+  </div>
+  <div class="card card-inverse text-white" style="border-radius: 40px; background-color: #333333; border-color: #333333;">
+    <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="border-radius: 40px; ">
+    <div class="card-body">
+      <div id="wrapper" ><div id="first"><h4 class="card-title">Nazwa dania 8</h4></div><div id="second" style="text-align: right;"><h5 style="font-size: 20px; color: gray;">1h 15min</h5></div></div>
+      <p class="card-text">Opis dania. Opis dania. Opis dania. Opis dania. Opis dania.</p>
+      <a href="#" style="border-radius: 20px;" class="btn btn-primary stretched-link">Zobacz przepis</a>
     </div>
   </div>
 </div>
-
-
+</div>
 
 <footer class="site-footer">
       <div class="container">

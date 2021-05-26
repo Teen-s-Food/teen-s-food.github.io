@@ -254,3 +254,7 @@ src: url(sf2.ttf);
   /*border: 1px solid green*/
   float: left; /* add this */
 }
+
+.main-text{
+  color: white;
+}

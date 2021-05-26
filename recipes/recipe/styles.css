@@ -235,8 +235,10 @@ body {
   -o-transition:all .4s linear;
   transition:all .4s linear;
 }
-
-
+@font-face {
+font-family: sf2;
+src: url(sf2.ttf);
+}
 #wrapper {
   width: 355px;
   /*border: 1px solid black;*/

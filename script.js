@@ -3,13 +3,13 @@ function normalText(x) {
 }
 
 function themeChecking() {
-if (localStorage.getItem('theme') == null)
+if (window.localStorage.getItem('theme') == null)
 {
-  localStorage.setItem('theme', 'dark');
+  window.localStorage.setItem('theme', 'dark');
   document.getElementById("theme").checked = true;
 }
 else {
-  var Theme = localStorage.getItem('theme');
+  var Theme = window.localStorage.getItem('theme');
   if ( Theme == 'dark' )
   {
       document.getElementById("theme").checked = true;
@@ -46,11 +46,11 @@ else {
 function changingTheme() {
 var checkBox = document.getElementById("theme");
 if (checkBox.checked == true){
-  localStorage.setItem('theme', 'dark' );
+  window.localStorage.setItem('theme', 'dark' );
   themeChecking();
   //document.body.style.backgroundColor = "black";
 } else {
-   localStorage.setItem('theme', 'light');
+   window.localStorage.setItem('theme', 'light');
    themeChecking();
    //document.body.style.backgroundColor = "white";
 }

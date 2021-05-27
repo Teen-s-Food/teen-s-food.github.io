@@ -20,7 +20,7 @@ else {
       $('h6[name="text"]').css('color','white');
       $('a[class="social-icons"]').css('backgroundColor','#262626');
       $('nav[id="navBar"]').removeClass('navbar-light').addClass('navbar-dark');
-      $('dic[class="card"]').addClass('card-inverse').addClass('text-white');
+      $('div[class="card"]').addClass('card-inverse').addClass('text-white');
 
 
 
@@ -36,7 +36,7 @@ else {
       $('h6[name="text"]').css('color','black');
       $('a[class="social-icons"]').css('backgroundColor','gray');
       $('nav[id="navBar"]').removeClass('navbar-dark').addClass('navbar-light');
-      $('dic[class="card"]').removeClass('card-inverse').removeClass('text-white');
+      $('div[class="card"]').removeClass('card-inverse').removeClass('text-white');
 
 
   }
